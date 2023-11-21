@@ -1,23 +1,12 @@
+import Header from "./components/Header";
+import PowerfulSection from "./components/PowerfulSection";
+
 const App = () => {
   return (
     <>
-      <header className="bg-red-100 h-[67.3px] py-[20px] z-30 sticky top-0">
-        <div className="bg-red-300 container ">
-          <div>
-            <img
-              className="bg-black"
-              src="./images/solana_logo.svg"
-              alt="solana_logo"
-            />
-          </div>
-          <div> sticky header</div>
-        </div>
-      </header>
+      <Header />
 
-      <div className="bg-orange-100 h-[665.78px] container pt-[190px] pb-[120px] px-[20px]">
-        <div className="bg-blue-200 h-full"> Powerful for Developers</div>
-      </div>
-      <div className="bg-yellow-100 h-[82.09px] mb-8 container">partners</div>
+      <PowerfulSection />
 
       <div className="bg-green-100 h-[336.09px] mb-12 container">banner</div>
       <section className="bg-blue-100 container h-[1666.92px] py-[125px]">
