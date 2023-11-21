@@ -1,3 +1,4 @@
+import Banner from "./components/Banner";
 import Header from "./components/Header";
 import PowerfulSection from "./components/PowerfulSection";
 
@@ -5,10 +6,9 @@ const App = () => {
   return (
     <>
       <Header />
-
       <PowerfulSection />
+      <Banner />
 
-      <div className="bg-green-100 h-[336.09px] mb-12 container">banner</div>
       <section className="bg-blue-100 container h-[1666.92px] py-[125px]">
         <div className="bg-red-100 h-[653.89px] pb-20 flex">
           <div className="bg-green-300 w-[600px] h-full">

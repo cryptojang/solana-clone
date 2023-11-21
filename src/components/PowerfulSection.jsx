@@ -4,9 +4,9 @@ import LogoImage from "./LogoImage";
 
 const PowerfulSection = () => {
   return (
-    <div className=" h-[745.78px]   relative">
+    <div className=" h-[745.78px] min-w-screen  relative">
       <img
-        className="absolute top-0 -z-10 object-cover h-100%  "
+        className="absolute top-0 left-0 w-full h-full -z-10 object-cover  "
         src="./images/solana-ring.webp"
         alt="solana-ring"
       />
