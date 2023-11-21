@@ -1,8 +1,17 @@
 const App = () => {
   return (
     <>
-      <header className="bg-red-100 h-[67.3px] py-[20px] z-30">
-        <div className="bg-red-300 container "> sticky header</div>
+      <header className="bg-red-100 h-[67.3px] py-[20px] z-30 sticky top-0">
+        <div className="bg-red-300 container ">
+          <div>
+            <img
+              className="bg-black"
+              src="./images/solana_logo.svg"
+              alt="solana_logo"
+            />
+          </div>
+          <div> sticky header</div>
+        </div>
       </header>
 
       <div className="bg-orange-100 h-[665.78px] container pt-[190px] pb-[120px] px-[20px]">
