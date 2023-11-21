@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         solana: {
           100: "#848895",
+          200: "#c4c4c4",
         },
       },
     },

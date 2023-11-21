@@ -13,7 +13,7 @@ const PowerfulSection = () => {
       <div className="  h-[665.78px] container pt-[190px] pb-[120px] px-[20px]">
         <div className=" h-full">
           <ul className="text-7xl font-semibold d h-[151.2px] mb-4 flex flex-col items-center text-white">
-            <li>Powerful for Developers.</li>
+            <li>Powerful for developers.</li>
             <li>Fast for everyone.</li>
           </ul>
 
