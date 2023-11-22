@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import CaseSection from "./components/CaseSection";
 import Header from "./components/Header";
 import NumberSection from "./components/NumberSection";
 import PowerfulSection from "./components/PowerfulSection";
@@ -11,9 +12,7 @@ const App = () => {
       <Banner />
 
       <NumberSection />
-      <div className="bg-purple-100 h-[809.25px] container px-5">
-        case studies
-      </div>
+      <CaseSection />
       <div className="bg-red-100 h-[812.48px] container px-5">
         build for growth
       </div>

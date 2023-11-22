@@ -26,7 +26,7 @@ const PowerfulSection = () => {
 
           <div className="flex justify-center ">
             <GradientButton />
-            <BlackButton />
+            <BlackButton title="READ DOCS" />
           </div>
         </div>
       </div>
