@@ -35,16 +35,16 @@ const PowerfulSection = () => {
           POWERING TOOLS AND INTEGRATIONS FROM COMPANIES ALL AROUND THE WORLD
         </div>
         <ul className="px-5 flex justify-between">
-          <LogoImage image="brave" />
-          <LogoImage image="circle" />
-          <LogoImage image="discord" />
-          <LogoImage image="google" />
-          <LogoImage image="jump" />
-          <LogoImage image="lollapalooza" />
-          <LogoImage image="magiceden" />
-          <LogoImage image="meta" />
-          <LogoImage image="shopify" />
-          <LogoImage image="stripe" />
+          <LogoImage image="brave.svg" size="w-[88.88px]" />
+          <LogoImage image="circle.svg" size="w-[88.88px]" />
+          <LogoImage image="discord.svg" size="w-[88.88px]" />
+          <LogoImage image="google.svg" size="w-[88.88px]" />
+          <LogoImage image="jump.svg" siz="w-[88.88px]" />
+          <LogoImage image="lollapalooza.svg" size="w-[88.88px]" />
+          <LogoImage image="magiceden.svg" size="w-[88.88px]" />
+          <LogoImage image="meta.svg" size="w-[88.88px]" />
+          <LogoImage image="shopify.svg" size="w-[88.88px]" />
+          <LogoImage image="stripe.svg" size="w-[88.88px]" />
         </ul>
       </div>
     </div>

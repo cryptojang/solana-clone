@@ -4,7 +4,7 @@ import CaseComp from "./CaseComp";
 
 const CaseSection = () => {
   return (
-    <div className="bg-black h-[808.94px] ">
+    <div className="bg-black h-[808.94px] -mt-1 ">
       <div className=" h-[809.25px] container ">
         <div className=" mb-8 flex justify-between items-center px-5 h-[46.19px]">
           <div className="text-[42px] text-white">Case Studies</div>

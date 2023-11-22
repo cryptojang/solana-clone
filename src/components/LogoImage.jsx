@@ -1,11 +1,5 @@
-const LogoImage = ({ image }) => {
-  return (
-    <img
-      className="w-[88.88px]"
-      src={`./images/${image}.svg`}
-      alt={`${image}`}
-    />
-  );
+const LogoImage = ({ image, size }) => {
+  return <img className={size} src={`./images/${image}`} alt={`${image}`} />;
 };
 
 export default LogoImage;

@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import BuildSection from "./components/BuildSection";
 import CaseSection from "./components/CaseSection";
 import Header from "./components/Header";
 import NumberSection from "./components/NumberSection";
@@ -13,9 +14,8 @@ const App = () => {
 
       <NumberSection />
       <CaseSection />
-      <div className="bg-red-100 h-[812.48px] container px-5">
-        build for growth
-      </div>
+      <BuildSection />
+
       <div className="bg-orange-100 h-[914.56px] ">
         <div className="bg-blue-200 h-[46.19px] container px-5 mb-8">
           join a thriving community
