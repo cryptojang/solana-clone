@@ -47,7 +47,7 @@ const bannerData = [
 
 const JoinSection = () => {
   return (
-    <div className=" h-[914.56px] relative ">
+    <div className=" h-[994.56px] relative ">
       <img
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         src="./images/glow-lines-alt.webp"
