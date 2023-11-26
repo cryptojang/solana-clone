@@ -1,7 +1,7 @@
 const BannerCard = ({ event, title, desc, image }) => {
   return (
     <div className="flex justify-between">
-      <div className="bg-red-100 w-[465px] h-[250px] rounded-md relative">
+      <div className=" w-[465px] h-[250px] rounded-md relative">
         <img
           className="absolute top-0 left-0 w-full h-full object-cover"
           src={`./images/${image}.webp`}
